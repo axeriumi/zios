@@ -1,0 +1,24 @@
+xdebug/
+├── main.py
+├── utils/
+│   ├── __init__.py
+│   ├── colors.py
+│   └── helpers.py
+├── scanners/
+│   ├── __init__.py
+│   ├── vulnerability_scanner.py
+│   ├── web_scanner.py
+│   ├── api_scanner.py
+│   └── advanced_scanner.py
+├── payloads/
+│   ├── __init__.py
+│   ├── payload_manager.py
+│   ├── advanced_payloads.py
+│   ├── xss.txt
+│   ├── sqli.txt
+│   └── wordlists/
+│       ├── directories.txt
+│       ├── subdomains.txt
+│       └── ports.txt
+└── reports/
+    └── __init__.py 
